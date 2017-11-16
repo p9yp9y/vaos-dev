@@ -32,9 +32,9 @@
 	</repositories>
 	
 	<scm>
-		<connection>scm:git:https://github.com/p9yp9y/vaos.git</connection>
-		<developerConnection>scm:git:git@github.com:p9yp9y/vaos.git</developerConnection>
-		<url>https://github.com/p9yp9y/vaos.git</url>
+		<connection>scm:git:https://github.com/p9yp9y/vaos-dev.git</connection>
+		<developerConnection>scm:git:git@github.com:p9yp9y/vaos-dev.git</developerConnection>
+		<url>https://github.com/p9yp9y/vaos-dev.git</url>
 		<tag>vaos-0.1</tag>
 	</scm>
 
@@ -42,7 +42,7 @@
 		<repository>
 			<id>bintray-p9yp9y-vaos</id>
 			<name>p9yp9y-vaos</name>
-			<url>https://api.bintray.com/maven/p9yp9y/vaos/vaos/;publish=1</url>
+			<url>https://api.bintray.com/maven/p9yp9y/vaos/vaos-dev/;publish=1</url>
 		</repository>
 	</distributionManagement>
 </project>
