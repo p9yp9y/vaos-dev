@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>p9yp9y.vaos</groupId>
 	<artifactId>vaos-dev</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 
 	<dependencies>
 		<dependency>
@@ -24,13 +24,6 @@
 			<url>http://maven.vaadin.com/vaadin-addons</url>
 		</repository>
 	</repositories>
-	
-	<scm>
-		<connection>scm:git:https://github.com/p9yp9y/vaos-dev.git</connection>
-		<developerConnection>scm:git:git@github.com:p9yp9y/vaos-dev.git</developerConnection>
-		<url>https://github.com/p9yp9y/vaos-dev.git</url>
-		<tag>vaos-dev-0.0.2</tag>
-	</scm>
 
 	<distributionManagement>
 		<repository>
