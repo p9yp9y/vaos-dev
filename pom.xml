@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>p9yp9y.vaos</groupId>
 	<artifactId>vaos-dev</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.2-SNAPSHOT</version>
 
 	<dependencies>
 		<dependency>
