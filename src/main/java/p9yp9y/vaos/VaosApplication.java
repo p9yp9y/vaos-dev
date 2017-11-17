@@ -1,6 +1,6 @@
 package p9yp9y.vaos;
 
-public abstract class VaosApplication {
-	public abstract void main(String[] args);
-	public abstract void getName();
+public interface VaosApplication {
+	public void main(String[] args);
+	public String getName();
 }

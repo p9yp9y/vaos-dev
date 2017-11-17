@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>p9yp9y.vaos</groupId>
 	<artifactId>vaos-dev</artifactId>
-	<version>0.0.4-SNAPSHOT</version>
+	<version>0.0.7-SNAPSHOT</version>
 
 	<dependencies>
 		<dependency>
@@ -22,6 +22,10 @@
 		<repository>
 			<id>vaadin-addons</id>
 			<url>http://maven.vaadin.com/vaadin-addons</url>
+		</repository>
+		<repository>
+			<id>bintray</id>
+			<url>https://dl.bintray.com/p9yp9y/vaos</url>
 		</repository>
 	</repositories>
 
