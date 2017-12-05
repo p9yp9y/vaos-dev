@@ -38,7 +38,7 @@
 			<artifactId>messagebox</artifactId>
 			<version>4.0.21</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/org.eclipse.jgit/org.eclipse.jgit -->
 		<dependency>
 			<groupId>org.eclipse.jgit</groupId>
@@ -87,4 +87,17 @@
 			<url>https://api.bintray.com/maven/p9yp9y/vaos/vaos-dev/;publish=1</url>
 		</repository>
 	</distributionManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
