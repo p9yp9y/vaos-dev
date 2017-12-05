@@ -42,6 +42,10 @@ public class GitUtil {
 		MavenCli cli = new MavenCli();
 		cli.doMain(mvnArgs, projectDir.toString(), System.out, System.err);
 		
+		if (!new File(targetDir).exists()) {
+			return null;
+		}		
+		
 		DirectoryScanner scanner = new DirectoryScanner();
 		scanner.setIncludes(new String[]{"**/*.jar"});
 		scanner.setBasedir(targetDir);
